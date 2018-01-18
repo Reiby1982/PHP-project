@@ -23,6 +23,7 @@
 						<li><a class="active" href="news.php">NEWS</a></li>
 						<li><a href="photos.php">PHOTOS</a></li>
 						<li><a href="contacts.php">CONTACTS</a></li>
+						<li><a href="avtoriz.php">AVTORIZATION</a></li>
 					</ul>
 				</div>
 				<!-- Новости -->
