@@ -1,3 +1,17 @@
+<?php 
+$post = $_POST;
+
+if(isset($post['Name']) && isset($post['e_mail']) && 
+    isset($post['text_area'])) {
+        $nameUser = stripslashes(htmlspecialchars(trim(strip_tags($post['Name']))));
+        $emailUser = stripslashes(htmlspecialchars(trim(strip_tags($post['e_mail']))));
+        $messageUser = stripslashes(htmlspecialchars(trim(strip_tags($post['text_area']))));
+}
+
+
+var_dump("Имя пользователя - " . $nameUser . "<br>","E-mail - " . $emailUser . "<br>", "Сообщение " . $messageUser . "<br>" );
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
@@ -58,14 +72,14 @@
 					</td>
 				</table>
 				<br>
-				<form action="#" method="post">
+				<form action="contacts.php" method="post">
 					<table class="contacts_2">
 						<tr>
 							<th>
 								<label for="text_field">Name</label>
 							</th>
 							<th colspan="2" >
-								<input id="text_field" type="text" placeholder="Name" required>
+								<input id="Name" type="text" placeholder="Name" required name="Name">
 							</th>
 						</tr>
 						<tr>
@@ -73,7 +87,7 @@
 								<label for="e_mail">E-mail</label>
 							</th>
 							<th colspan="2">
-								<input id="e_mail" type="text" placeholder="e_mail" required>
+								<input id="e_mail" type="text" placeholder="e_mail" name="e_mail" required>
 							</th>
 						</tr>
 						<tr>
@@ -81,7 +95,7 @@
 								<label for="text_area">Напишите нам!</label>
 							</th>
 							<th colspan="2">
-								<textarea cols="22" rows="12" id="text_area"></textarea>
+								<textarea cols="22" rows="12" id="text_area" name="text_area"></textarea>
 							</th>
 						</tr>
 						<tr>
