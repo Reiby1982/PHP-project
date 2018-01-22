@@ -1,44 +1,5 @@
-<?php 
-$post = $_POST;
+<?php include "header.php";?>
 
-if(isset($post['Name']) && isset($post['e_mail']) && 
-    isset($post['text_area'])) {
-        $nameUser = stripslashes(htmlspecialchars(trim(strip_tags($post['Name']))));
-        $emailUser = stripslashes(htmlspecialchars(trim(strip_tags($post['e_mail']))));
-        $messageUser = stripslashes(htmlspecialchars(trim(strip_tags($post['text_area']))));
-}
-
-
-var_dump("Имя пользователя - " . $nameUser . "<br>","E-mail - " . $emailUser . "<br>", "Сообщение " . $messageUser . "<br>" );
-?>
-
-<!DOCTYPE html>
-<html lang="ru">
-	<head>
-		<meta charset="utf-8">
-		<title>Contacts</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<div class="wraper">
-			<div class="content">
-				<!-- Шапка -->
-		        <div class="bar">
-		        	<p>Once surf always a Surfer</p>
-		        </div>
-		        <div class="logo">
-		        	<img src="pictures/logo.png" alt="logo">
-		        </div>
-				<!-- Меню -->
-				<div class="menu">
-					<ul>
-						<li><a href="index.php">MAIN</a></li>
-						<li><a href="news.php">NEWS</a></li>
-						<li><a href="photos.php">PHOTOS</a></li>
-						<li><a class="active" href="contacts.php">CONTACTS</a></li>
-						<li><a href="avtoriz.php">AVTORIZATION</a></li>
-					</ul>
-				</div>
 				<br>
 				<br>
 				<h2>Контакты</h2>
@@ -138,9 +99,4 @@ var_dump("Имя пользователя - " . $nameUser . "<br>","E-mail - " .
 				</form>
 				<br>
 		</div>
-		<div  class="footer">
-		<p>Don't waste your time!</p>
-		</div>
-		</div>
-	</body>
-</html>
+<?php include "footer.php";?>
