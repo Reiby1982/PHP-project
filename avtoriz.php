@@ -4,7 +4,7 @@
 				<br>
 				<h2>Авторизация</h2>
 				
-				<form action="#" method="post">
+				<form action="#" method="post" id="auth_form">
 					<table class="contacts_2">
 						<tr>
 							<th>
