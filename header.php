@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Photos</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/jquery-3.2.1.js"></script>
 	</head>
 	<body>
 		<div class="wraper">

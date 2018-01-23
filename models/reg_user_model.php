@@ -2,7 +2,7 @@
 include "reader_writer.php";
 include "validator.php";
 
-'user_data=' + JSON.stringify(user_data);
+//'user_data=' + JSON.stringify(user_data);
 
 function reg_user() {
     

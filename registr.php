@@ -4,7 +4,7 @@
 				<br>
 				<h2>Регистрация</h2>
 				
-				<form action="#" method="post" id="reg_form">
+				<form id="reg_form">
 					<table class="contacts_2">
 						<tr>
 							<th>

@@ -13,6 +13,13 @@ function getDataFromFile($filename) {
 
 //Функция записи в файл
 
-function addDataToFile($data, $filename) {
-    return file_put_contents($filename, serialize($data), FILE_APPEND);
+//function addDataToFile($data, $filename) {
+//    return file_put_contents($filename, serialize($data), FILE_APPEND);
+//}
+
+function addDataToFile($data, $filename) { 
+$from_file = file_get_contents($filename); 
+$from_file = unserialize($from_file); 
+$from_file[] = $data; 
+return file_put_contents($filename, serialize($from_file)); 
 }
