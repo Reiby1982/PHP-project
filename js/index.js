@@ -1,7 +1,6 @@
 jQuery(document).ready(function () {
     'use strict';
-    console.log("sdsd");
-
+    
     jQuery('form#reg_form').submit(
         function (event) {
             event.preventDefault(); // отменяет отправку формы
