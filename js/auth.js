@@ -33,7 +33,7 @@ jQuery(document).ready(function () {
                             document.getElementById('response').innerHTML = 'user not found';
                             break;
                         case 'user':
-                            window.location = "Вы вошли";
+                            console.log("Вы вошли");
                             break;
                     }},
                 error: function (err) {
