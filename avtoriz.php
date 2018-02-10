@@ -4,22 +4,22 @@
 				<br>
 				<h2>Авторизация</h2>
 				
-				<form action="#" method="post" id="auth_form">
+				<form id="auth_form">
 					<table class="contacts_2">
 						<tr>
 							<th>
-								<label for="text_field">Имя</label>
+								<label for="auth_login">Имя</label>
 							</th>
 							<th colspan="2" >
-								<input id="text_field" type="text" placeholder="Name" required>
+								<input id="auth_login" type="text" placeholder="Введите логин" required>
 							</th>
 						</tr>
 						<tr>
 							<th>
-								<label for="password">Пароль</label>
+								<label for="auth_password">Пароль</label>
 							</th>
 							<th colspan="2">
-								<input id="password" type="password" placeholder="password" required>
+								<input id="auth_password" type="password" placeholder="Введите пароль" required>
 							</th>
 						
 						<tr>
