@@ -1,0 +1,12 @@
+{
+    "urls": {
+        "index": {
+            "path":"/",
+            "controller":"\\Kushin\\Php_project\\Controllers\\IndexController::indexAction"
+        },
+        
+        "registr": {
+            "path":"/registr",            "controller":"\\Kushin\\Php_project\\Controllers\\AccountController::registrAction"
+    }
+    }
+}
