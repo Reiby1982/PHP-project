@@ -4,20 +4,19 @@ namespace Kushin\Php_project\Controllers;
 
 use Web\Engine\Controller;
 
-class IndexController extends Controller
+class NewsController extends Controller
 {
     private $template = 'template_view.php';
    
-    function indexAction()
+    function newsAction()
     {
-        $title = 'Главная';
-        $view_filename = 'index_view.php';
+        $title = 'Новости';
+        $view_filename = 'news_view.php';
         return $this->generateResponse($view_filename, $this->template,
             [
                 'title' => $title,
             ]);
     }
-    
-
 
 }
+ 

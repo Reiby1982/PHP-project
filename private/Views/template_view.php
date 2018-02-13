@@ -22,11 +22,11 @@
             <div class="menu">
                 <ul>
                     <li><a href="/">MAIN</a></li>
-                    <li><a href="news.php">NEWS</a></li>
-                    <li><a href="photos.php">PHOTOS</a></li>
-                    <li><a href="contacts.php">CONTACTS</a></li>
+                    <li><a href="/news">NEWS</a></li>
+                    <li><a href="/photos">PHOTOS</a></li>
+                    <li><a href="/contacts">CONTACTS</a></li>
                     <li><a href="/registr">REGISTRATION</a></li>
-                    <li><a href="avtoriz.php">AVTORIZATION</a></li>
+                    <li><a href="/autorith">AUTHORIZATION</a></li>
                 </ul>
             </div>
 

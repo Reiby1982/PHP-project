@@ -1,4 +1,3 @@
-<?php include "header.php";?>
 
 				<br>
 				<br>
@@ -99,4 +98,3 @@
 				</form>
 				<br>
 		</div>
-<?php include "footer.php";?>

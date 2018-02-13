@@ -1,10 +1,9 @@
-<?php include "header.php";?>
 
 				<!-- Новости -->
 				<div class="row-container">
 					<div class="column-container flex1">
 						<div class="news">
-							<img src="pictures/News_2.jpg" alt="News1">
+							<img src="/static/pictures/News_2.jpg" alt="News1">
 						</div>
 						<div class="news">
 							<a href="#"><h3>ЧЕМПИОНАТ ISA WSG. ОТЧЕТ ИРИНЫ КОСОБУКИНОЙ</h3></a> 
@@ -13,7 +12,7 @@
 					</div>
 					<div class="column-container flex1">
 						<div class="news">
-							<img src="pictures/News_3.jpg" alt="News2">
+							<img src="/static/pictures/News_3.jpg" alt="News2">
 						</div>
 						<div class="news">
 							<a href="#"><h3>БАЛИ: БОТАНИЧЕСКИЙ ПАРК</h3> </a> 
@@ -22,7 +21,7 @@
 					</div>
 					<div class="column-container flex1">
 						<div class="news">
-							<img src="pictures/News_4.jpg" alt="News3">
+							<img src="/static/pictures/News_4.jpg" alt="News3">
 						</div>
 						<div class="news">
 							<a href="#"><h3>БАЛИ: ИССЛЕДУЕМ СЕВЕР</h3></a> 
@@ -31,4 +30,3 @@
 					</div>
 				</div>
 			</div>
-<?php include "footer.php";?>
